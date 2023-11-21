@@ -9,7 +9,9 @@ Extension for a String comparison with a localization transcription
 ## Sample
 
 ```dart
-
+'Café au Lait'.transcription(Locale('fr')) // cafe au lait
+'Прывiтаньне'.transcription(Locale('be')) // pryvitanne
+'生物多样性可持续发展'.transcription(Locale('zh')) // shngwuk
 ```
 
 In addition to thanking, you may [treat us to :coffee:](https://www.buymeacoffee.com/lyskouski).
