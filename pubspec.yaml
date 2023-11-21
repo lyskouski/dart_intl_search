@@ -1,7 +1,7 @@
 name: dart_intl_search
 description: |
   Extension for a String comparison with a localization transcription (BE, ZH, etc.)
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/lyskouski/dart_intl_search
 repository: https://github.com/lyskouski/dart_intl_search
 issue_tracker: https://github.com/lyskouski/dart_intl_search/issues

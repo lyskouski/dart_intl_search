@@ -15,7 +15,7 @@ Extension for a String comparison with a localization transcription
 
 '多'.isPartOf('生物多样性可持续发展', Locale('zh')) // true
 
-'脖'.isEqualTo('bo') // true
+'脖'.isEqualTo('bo', Locale('zh')) // true
 ```
 
 In addition to thanking, you may [treat us to :coffee:](https://www.buymeacoffee.com/lyskouski).

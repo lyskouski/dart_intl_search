@@ -1,3 +1,7 @@
+## 1.0.2
+
+* Fix sample
+
 ## 1.0.1
 
 * Add sample
