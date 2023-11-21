@@ -9,7 +9,7 @@ void main() {
     (from: 'Café au Lait', locale: 'fr', to: 'cafe au lait'),
     (from: 'Прывiтаньне', locale: 'be', to: 'pryvitanne'),
     (from: 'Pryvitańne', locale: 'be', to: 'pryvitanne'),
-    (from: '生物多样性可持续发展', locale: 'zh', to: "shngwuk"),
+    (from: '生物多样性可持续发展', locale: 'zh', to: "shngwukxu"),
   ];
   for (var v in testCases) {
     test('Check $v', () {

@@ -11,7 +11,7 @@ Extension for a String comparison with a localization transcription
 ```dart
 'Café au Lait'.transcription(Locale('fr')) // cafe au lait
 'Прывiтаньне'.transcription(Locale('be')) // pryvitanne
-'生物多样性可持续发展'.transcription(Locale('zh')) // shngwuk
+'生物多样性可持续发展'.transcription(Locale('zh')) // shngwukxu
 
 '多'.isPartOf('生物多样性可持续发展', Locale('zh')) // true
 
