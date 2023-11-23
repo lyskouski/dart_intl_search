@@ -1,3 +1,7 @@
+## 1.1.0
+
+* Downgrade SDK support
+
 ## 1.0.2
 
 * Fix sample
