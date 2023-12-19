@@ -84,5 +84,9 @@ String basic(String value) {
   for (var e in normalizeChars.entries) {
     value = value.replaceAll(e.key, e.value);
   }
-  return value.replaceAll(RegExp(r'[^\x00-\x7F]'), '').toLowerCase();
+  final result = value.replaceAll(RegExp(r'[^\x00-\x7F]'), '').toLowerCase();
+  if (value.isNotEmpty && result.isEmpty) {
+    return value;
+  }
+  return result;
 }
