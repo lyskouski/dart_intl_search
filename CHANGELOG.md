@@ -1,3 +1,7 @@
+## 1.2.1
+
+* Change naming to snake case
+
 ## 1.2.0
 
 * Add Hindi

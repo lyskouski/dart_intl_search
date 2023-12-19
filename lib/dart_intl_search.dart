@@ -8,7 +8,7 @@ import 'dart:ui';
 
 import 'src/basic.dart';
 import 'src/be_eu.dart';
-import 'src/hi_IN.dart';
+import 'src/hi_in.dart';
 import 'src/zh_cn.dart';
 
 extension ColorExt on String {
