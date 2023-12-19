@@ -1,3 +1,7 @@
+## 1.2.0
+
+* Add Hindi
+
 ## 1.1.0
 
 * Downgrade SDK support

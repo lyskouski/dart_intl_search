@@ -8,6 +8,7 @@ import 'dart:ui';
 
 import 'src/basic.dart';
 import 'src/be_eu.dart';
+import 'src/hi_IN.dart';
 import 'src/zh_cn.dart';
 
 extension ColorExt on String {
@@ -23,6 +24,7 @@ extension ColorExt on String {
   String transcription(Locale intl) => switch (intl.languageCode) {
         'zh' => zhCN(this),
         'be' => be(this),
+        'hi' => hiIN(this),
         _ => basic(this),
       };
 }
