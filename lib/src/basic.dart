@@ -86,7 +86,7 @@ String basic(String value) {
   }
   final result = value.replaceAll(RegExp(r'[^\x00-\x7F]'), '').toLowerCase();
   if (value.isNotEmpty && result.isEmpty) {
-    return value;
+    return value.toLowerCase();
   }
   return result;
 }
