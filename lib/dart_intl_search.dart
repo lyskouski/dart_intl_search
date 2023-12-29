@@ -9,7 +9,7 @@ import 'dart:ui';
 import 'src/basic.dart';
 import 'src/be_eu.dart';
 import 'src/hi_in.dart';
-import 'src/uk copy.dart';
+import 'src/fa.dart';
 import 'src/uk.dart';
 import 'src/zh_cn.dart';
 
