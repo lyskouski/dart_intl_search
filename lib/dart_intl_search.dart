@@ -9,6 +9,8 @@ import 'dart:ui';
 import 'src/basic.dart';
 import 'src/be_eu.dart';
 import 'src/hi_in.dart';
+import 'src/uk copy.dart';
+import 'src/uk.dart';
 import 'src/zh_cn.dart';
 
 extension ColorExt on String {
@@ -25,6 +27,8 @@ extension ColorExt on String {
         'zh' => zhCN(this),
         'be' => be(this),
         'hi' => hiIN(this),
+        'uk' => uk(this),
+        'fa' => fa(this),
         _ => basic(this),
       };
 }

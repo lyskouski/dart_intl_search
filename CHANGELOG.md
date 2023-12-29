@@ -1,3 +1,7 @@
+## 1.2.3
+
+* Add Persian
+
 ## 1.2.2
 
 * Cover lower case
